@@ -16,7 +16,7 @@ public class ControlPanel extends JPanel implements ActionListener {
         BorderLayout border = new BorderLayout();
         setLayout(border);
         setBackground(Color.gray);
-        
+
         Student[] students = new Student[4];
         students[0] = new Student("Elwood", "Luntz", 24);
         students[1] = new Student("Penny", "Burke", 20);
